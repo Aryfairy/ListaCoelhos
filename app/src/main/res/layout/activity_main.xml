@@ -16,16 +16,20 @@ android:background="#ffd2b6"
         android:layout_gravity="center"
         android:text="Lista de Mini Coelhos"
         android:layout_marginRight="30sp"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textColor="#753d1b"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/baloo_bhai"
         />
 
     <androidx.recyclerview.widget.RecyclerView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/idRecyclerCoelhos"
-    android:background="#ffe9da"/>
+    android:background="#ffe9da"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"/>
 
 </LinearLayout>
